@@ -1,0 +1,364 @@
+body {
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  background-color: #0e1320;
+}
+
+#top-nav {
+  background-color: white;
+  height: 15vh;
+  border-bottom-left-radius: 60%;
+}
+
+.nav-top-1 {
+  /* background-color: blue; */
+  border-bottom-left-radius: 60%;
+  /* z-index: 999; */
+  height: 15vh;
+  width: 20%;
+}
+
+#bottom-nav {
+  background-color: white;
+  height: 15vh;
+  border-top-right-radius: 60%;
+  margin-top: 30px;
+}
+
+#main-body {
+  /* background-color: #0e1320; */
+  height: 100vh;
+}
+
+#q2-main {
+  background-color: #0e1320;
+  padding: 40px 20px 10px 30px;
+}
+
+.round-1 {
+  background-color: #2278d4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-2 {
+  background-color: #22a75d;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-3 {
+  background-color: #e20613;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-4 {
+  background-color: #ffd100;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.year-text {
+  margin-left: 5px;
+  font-size: 12px;
+  padding-top: 15px;
+  font-weight: 600;
+  color: white;
+  /* margin-top: 5px; */
+}
+
+.num_span {
+  color: #2278d4;
+  font-weight: 500;
+  font-size: 15px;
+  /* font-family: century-gothic, sans-serif; */
+}
+
+.num_span-2 {
+  color: #22a75d;
+  font-weight: 500;
+  font-size: 15px;
+  /* font-family: century-gothic, sans-serif; */
+}
+.num_span-3 {
+  color: #e20613;
+  font-weight: 500;
+  font-size: 15px;
+  /* font-family: century-gothic, sans-serif; */
+}
+
+.num_span-4 {
+  color: #ffd100;
+  font-weight: 500;
+  font-size: 15px;
+  /* font-family: century-gothic, sans-serif; */
+}
+
+.q2-para {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  /* font-family: century-gothic, sans-serif; */
+}
+
+.main-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  /* gap: 20px; */
+}
+
+.des-title {
+  color: white;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.about-para {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  padding-right: 70px;
+}
+
+.mobile-div {
+  display: flex;
+  /* background-color: #0039ff; */
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-left: 30px;
+  margin-right: 50px;
+  width: 90%;
+}
+.heading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.heading-img {
+  height: 20px;
+  width: 20px;
+}
+
+.btn-para {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.btn {
+  border: 2px solid green;
+  width: 100px;
+  border-radius: 20px;
+}
+
+.holiding-phone {
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom, #a4b8ff, #2051fe);
+  border-radius: 20px;
+  position: relative;
+}
+
+/* .gradient-box {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+} */
+
+.about-div {
+  width: 90%;
+}
+
+.iphone-1 {
+  display: none;
+}
+
+.iphone-2 {
+  width: 400px;
+  height: 440px;
+  position: relative;
+  bottom: 10px;
+  right: 60px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for small mobile devices */
+  body {
+    background-color: #0e1320;
+    font-family: century-gothic, sans-serif;
+  }
+  .iphone-2 {
+    display: none;
+  }
+
+  .iphone-1 {
+    display: flex;
+  }
+  #bottom-nav {
+    display: none;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .about-para {
+    /* color: white;
+    font-size: 16px;
+    font-weight: 700; */
+    display: none;
+  }
+
+  .main-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* gap: 0px; */
+  }
+
+  #top-nav {
+    /* background-color: white; */
+    /* height: 15vh; */
+    display: none;
+  }
+
+  #q2-main {
+    background-color: #0e1320;
+    padding: 20px 20px 10px 30px;
+  }
+
+  .round-1 {
+    background-color: #2278d4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .round-2 {
+    background-color: #22a75d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .round-3 {
+    background-color: #e20613;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .round-4 {
+    background-color: #ffd100;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .num_span {
+    color: #2278d4;
+    font-weight: 500;
+    font-size: 15px;
+    /* font-family: century-gothic, sans-serif; */
+  }
+  .num_span-2 {
+    color: #22a75d;
+    font-weight: 500;
+    font-size: 15px;
+    /* font-family: century-gothic, sans-serif; */
+  }
+  .num_span-3 {
+    color: #e20613;
+    font-weight: 500;
+    font-size: 15px;
+    /* font-family: century-gothic, sans-serif; */
+  }
+
+  .num_span-4 {
+    color: #ffd100;
+    font-weight: 500;
+    font-size: 15px;
+    /* font-family: century-gothic, sans-serif; */
+  }
+
+  .q2-para {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    /* font-family: century-gothic, sans-serif; */
+  }
+
+  .q2-div-1 {
+    display: flex;
+  }
+
+  .year-text {
+    margin-left: 5px;
+    font-size: 12px;
+    padding-top: 15px;
+    font-weight: 600;
+    color: white;
+    /* margin-top: 5px; */
+  }
+
+  .mobile-div {
+    background-color: #0039ff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-right: 0px;
+    width: 92%;
+  }
+
+  .holiding-phone {
+    background-color: #0039ff;
+    background-image: linear-gradient(to right, #0039ff, #0039ff);
+    position: relative;
+    right: 89px;
+  }
+
+  .description {
+    /* display: none; */
+    visibility: hidden;
+  }
+}
